@@ -1,6 +1,6 @@
 import { arraySorting, arrayFiltering, arrayPushing } from './Arrays';
 
-describe('Урок 5.11 - Работа с массивами', () => {
+describe('Работа с массивами', () => {
     it('Cортировка массива', () => {
         expect(arraySorting('101,2,0,4,44')).toBe('0,2,4,44,101');
     });
