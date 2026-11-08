@@ -1,4 +1,4 @@
-export function arraySorting(str) {
+export function arraySorting(data) {
     const sortedArray = str
         .split(',')
         .map(Number)
@@ -7,8 +7,8 @@ export function arraySorting(str) {
     return sortedArray.join(',');
 }
 
-export function arrayFiltering(arr) {
-    return arr.filter((num) => num <= 100);
+export function arrayFiltering(data) {
+    return data.filter((num) => num <= 100);
 }
 
 export function arrayPushing(arr1, arr2) {
